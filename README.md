@@ -22,7 +22,7 @@
 |---|---|---|
 | `DISCORD_TOKEN` | `TokenA,TokenB` （多个用**英文逗号** `,` 隔开，加不加空格均可） | ✅ |
 | `TG_BOT` | `chat_id,bot_token` | ✅ |
-| `GOST_PROXY` | `socks5://host:port` 或 `http://host:port` | 可选 |
+| `HY2_PROXY` | `hysteria2://password@host:port` | 可选 |
 
 > **💡 自定义账号名称（可选）**
 > 脚本默认会自动抓取您的 Discord 昵称。如需覆盖，可在 Token 前加 `名字:` 或 `名字#`。
